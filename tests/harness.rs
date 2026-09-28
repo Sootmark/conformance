@@ -3,9 +3,9 @@
 
 use std::sync::atomic::{AtomicU64, Ordering};
 
-use conformance::{assert_conforms, violations, Violation};
 use model::adapter::{Adapter, Confidence, Input, ParseError, Sink, Skipped};
 use model::{Locator, Namespace, ParserInfo, Record, RecordTime, TimeKind, Ts};
+use sootmark_conformance::{assert_conforms, violations, Violation};
 
 const NAMESPACE: Namespace = Namespace::new("test.lines");
 const PARSER: ParserInfo = ParserInfo {

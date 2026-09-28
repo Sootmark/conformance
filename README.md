@@ -2,6 +2,11 @@
 
 Checks that a parser adapter keeps the Sootmark adapter contract.
 
+```toml
+[dependencies]
+sootmark-conformance = "0.1"
+```
+
 `assert_conforms(adapter, name, bytes)` parses a fixture twice, then damaged variants of it (truncated, bytes inverted), and fails with the list of broken promises: panics, non-determinism, duplicate ids, wrong parser info, undeclared namespaces, wrong evidence, empty summaries, unnamed timestamps. Its own tests prove every check fires.
 
 ## Quality
