@@ -4,20 +4,20 @@ version = 3
 
 [[package]]
 name = "common"
-version = "0.3.0"
-source = "git+https://github.com/Sootmark/common?tag=v0.3.0#df761c5b0c903b43988e3a8fde5611fac0d0b12a"
+version = "0.3.1"
+source = "git+https://github.com/Sootmark/common?tag=v0.3.1#7e58fa4444246f9ce2b5a9cc23ff07320ce099a0"
 
 [[package]]
 name = "conformance"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "model",
 ]
 
 [[package]]
 name = "model"
-version = "0.1.2"
-source = "git+https://github.com/Sootmark/model?tag=v0.1.2#5f2f128c0392eb6ab95f0fd6464d833fa9ef9997"
+version = "0.1.3"
+source = "git+https://github.com/Sootmark/model?tag=v0.1.3#d3aa7bcfcfc4544b366d6657872055f66a8d45d4"
 dependencies = [
  "common",
 ]
