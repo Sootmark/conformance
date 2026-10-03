@@ -10,16 +10,16 @@ checksum = "edd82ca69e758140dc089a1eae16fc466477a48f9097ab3f7d2788ccf6536290"
 
 [[package]]
 name = "sootmark-conformance"
-version = "0.1.5"
+version = "0.2.0"
 dependencies = [
  "sootmark-model",
 ]
 
 [[package]]
 name = "sootmark-model"
-version = "0.1.4"
+version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3a74be8f3382f658e361589a7922d72d5009c1cb1470c7f89f7fcbb020884c87"
+checksum = "a46e3ede178441a9200ec2249aaaec66c92d522a6429a19883158e11578c297d"
 dependencies = [
  "sootmark-common",
 ]

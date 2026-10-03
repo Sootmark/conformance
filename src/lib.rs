@@ -59,6 +59,7 @@ pub fn violations(adapter: &dyn Adapter, name: &str, data: &[u8]) -> Vec<Violati
         evidence,
         name,
         data,
+        modified: None,
     };
 
     let Some(first) = parse_catching(adapter, &input) else {
@@ -152,6 +153,7 @@ fn robustness_violations(adapter: &dyn Adapter, name: &str, data: &[u8]) -> Vec<
                 evidence: EvidenceId::of_content(&damaged),
                 name,
                 data: &damaged,
+                modified: None,
             };
             parse_catching(adapter, &input)
                 .is_none()

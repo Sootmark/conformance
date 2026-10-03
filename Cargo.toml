@@ -1,6 +1,6 @@
 [package]
 name = "sootmark-conformance"
-version = "0.1.5"
+version = "0.2.0"
 edition = "2021"
 rust-version = "1.80"
 description = "Checks that a parser adapter keeps the Sootmark adapter contract."
@@ -12,7 +12,7 @@ keywords = ["forensics", "dfir", "incident-response"]
 include = ["/src", "/README.md", "/LICENSE-APACHE", "/LICENSE-MIT"]
 
 [dependencies]
-model = { package = "sootmark-model", version = "0.1.4" }
+model = { package = "sootmark-model", version = "0.2.0" }
 
 [lints.rust]
 unsafe_code = "forbid"

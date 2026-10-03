@@ -186,6 +186,7 @@ fn unparseable_lines_are_reported_not_dropped() {
         evidence: model::EvidenceId::of_content(LOG),
         name: "app.log",
         data: LOG,
+        modified: None,
     };
     LinesAdapter::default().parse(&input, &mut sink).unwrap();
     assert_eq!(sink.records.len(), 3);
